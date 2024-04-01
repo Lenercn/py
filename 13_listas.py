@@ -1,0 +1,13 @@
+Lista= [100, 25,65, [54,25, [96, 21,47]] ,52] 
+Lista.append('50')
+print(Lista)
+print(Lista.index('50'))
+print(Lista.count(100))
+Lista[3][2].insert(1,'80')
+print(Lista)
+Lista[3][2].append(65)
+print(Lista)
+Lista.remove(25)
+print(Lista)
+Lista.reverse()
+print(Lista)
